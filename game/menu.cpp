@@ -37,7 +37,7 @@ void Menu::draw(Renderer* renderer) {
     for(auto text : menuTexts) {
         text_start = {225, i * 40 + 190};
         i++;
-        renderer->drawText(&text_start, text, {69, 97, 0}, 2);
+        renderer->drawText(&text_start, text, {237, 28, 36}, 2);
     }
     tankPointer->draw(renderer);
     renderer->flush();
