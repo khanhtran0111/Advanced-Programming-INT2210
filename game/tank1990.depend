@@ -1,0 +1,700 @@
+# depslib dependency file v1.0
+1681476965 source:c:\users\admin\desktop\cplusplus\mainprj\tank1990\game.cpp
+	"game.h"
+	"gameconfig.h"
+	"renderer.h"
+	"main.h"
+	"playing.h"
+	"menu.h"
+	<bits/stdc++.h>
+	<chrono>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+
+1681443092 c:\users\admin\desktop\cplusplus\mainprj\tank1990\game.h
+	"appstate.h"
+	<SDL.h>
+	"renderer.h"
+
+1681313447 c:\users\admin\desktop\cplusplus\mainprj\tank1990\gameconfig.h
+	<SDL.h>
+	<string>
+	<vector>
+
+1680745607 source:c:\users\admin\desktop\cplusplus\mainprj\tank1990\main.cpp
+	<bits/stdc++.h>
+	"main.h"
+	"renderer.h"
+	<SDL.h>
+
+1681469233 source:c:\users\admin\desktop\cplusplus\mainprj\tank1990\gameconfig.cpp
+	"gameconfig.h"
+
+1681485652 source:c:\users\admin\desktop\cplusplus\mainprj\tank1990\renderer.cpp
+	"renderer.h"
+	"gameconfig.h"
+	"main.h"
+	<bits/stdc++.h>
+	<SDL_image.h>
+	<SDL.h>
+
+1681485652 c:\users\admin\desktop\cplusplus\mainprj\tank1990\renderer.h
+	<SDL.h>
+	<SDL_ttf.h>
+	<string>
+
+1681485941 source:c:\users\admin\desktop\cplusplus\mainprj\tank1990\player.cpp
+	"player.h"
+	"renderer.h"
+	"main.h"
+	"gameconfig.h"
+	"bullet.h"
+	<algorithm>
+	<vector>
+	<iostream>
+
+1681438895 c:\users\admin\desktop\cplusplus\mainprj\tank1990\player.h
+	"tank.h"
+	<SDL.h>
+
+1681799071 source:c:\users\admin\desktop\cplusplus\mainprj\tank1990\playing.cpp
+	"playing.h"
+	"menu.h"
+	"renderer.h"
+	"main.h"
+	"object.h"
+	"gameconfig.h"
+	"brick.h"
+	"game.h"
+	"scores.h"
+	<SDL_mixer.h>
+	<chrono>
+	<SDL.h>
+	<fstream>
+	<iostream>
+	<string>
+	<SDL_image.h>
+	<algorithm>
+
+1681446806 c:\users\admin\desktop\cplusplus\mainprj\tank1990\playing.h
+	<SDL.h>
+	"appstate.h"
+	"player.h"
+	"object.h"
+	"eagle.h"
+	"enemy.h"
+	"bonus.h"
+	"renderer.h"
+	<string>
+
+1679369303 c:\users\admin\desktop\cplusplus\mainprj\tank1990\main.h
+	"game.h"
+
+1681444588 c:\users\admin\desktop\cplusplus\mainprj\tank1990\appstate.h
+	"renderer.h"
+	<SDL.h>
+
+1681485652 source:c:\users\admin\desktop\cplusplus\mainprj\tank1990\menu.cpp
+	"menu.h"
+	"playing.h"
+	"gameconfig.h"
+	<SDL.h>
+	<iostream>
+
+1681485652 c:\users\admin\desktop\cplusplus\mainprj\tank1990\menu.h
+	<vector>
+	"player.h"
+	"appstate.h"
+
+1681444624 source:c:\users\admin\desktop\cplusplus\mainprj\tank1990\bullet.cpp
+	"bullet.h"
+	"renderer.h"
+	<iostream>
+
+1681444588 c:\users\admin\desktop\cplusplus\mainprj\tank1990\bullet.h
+	"object.h"
+	<SDL.h>
+
+1681484595 source:c:\users\admin\desktop\cplusplus\mainprj\tank1990\object.cpp
+	"object.h"
+	"renderer.h"
+	<algorithm>
+	<SDL.h>
+
+1681444588 c:\users\admin\desktop\cplusplus\mainprj\tank1990\object.h
+	"renderer.h"
+	"SDL.h"
+
+1681444588 source:c:\users\admin\desktop\cplusplus\mainprj\tank1990\tank.cpp
+	"tank.h"
+	"gameconfig.h"
+	"renderer.h"
+	<iostream>
+	<algorithm>
+
+1681444588 c:\users\admin\desktop\cplusplus\mainprj\tank1990\tank.h
+	"object.h"
+	"bullet.h"
+	<vector>
+
+1680745812 source:c:\users\admin\desktop\cplusplus\mainprj\tank1990\brick.cpp
+	"brick.h"
+	<iostream>
+
+1680439167 c:\users\admin\desktop\cplusplus\mainprj\tank1990\brick.h
+	"object.h"
+
+1680758405 source:c:\users\admin\desktop\cplusplus\mainprj\tank1990\eagle.cpp
+	"eagle.h"
+	<iostream>
+
+1680589161 c:\users\admin\desktop\cplusplus\mainprj\tank1990\eagle.h
+	"object.h"
+
+1681444588 source:c:\users\admin\desktop\cplusplus\mainprj\tank1990\enemy.cpp
+	"enemy.h"
+	"gameconfig.h"
+	<iostream>
+
+1681444588 c:\users\admin\desktop\cplusplus\mainprj\tank1990\enemy.h
+	"tank.h"
+
+1681444599 source:c:\users\admin\desktop\cplusplus\mainprj\tank1990\bonus.cpp
+	"bonus.h"
+	"object.h"
+	"gameconfig.h"
+
+1681444588 c:\users\admin\desktop\cplusplus\mainprj\tank1990\bonus.h
+	"object.h"
+
+1680788922 source:c:\users\admin\documents\github\tank1990\bonus.cpp
+	"bonus.h"
+	"object.h"
+	"gameconfig.h"
+
+1680788913 c:\users\admin\documents\github\tank1990\bonus.h
+	"object.h"
+
+1680788097 c:\users\admin\documents\github\tank1990\object.h
+	"SDL.h"
+
+1680788913 c:\users\admin\documents\github\tank1990\gameconfig.h
+	<SDL.h>
+	<string>
+	<vector>
+
+1680745812 source:c:\users\admin\documents\github\tank1990\brick.cpp
+	"brick.h"
+	<iostream>
+
+1680439167 c:\users\admin\documents\github\tank1990\brick.h
+	"object.h"
+
+1680440979 source:c:\users\admin\documents\github\tank1990\bullet.cpp
+	"bullet.h"
+	"renderer.h"
+	<iostream>
+
+1680448381 c:\users\admin\documents\github\tank1990\bullet.h
+	"object.h"
+	<SDL.h>
+
+1680273681 c:\users\admin\documents\github\tank1990\renderer.h
+	<SDL.h>
+	<SDL_ttf.h>
+	<string>
+
+1680758405 source:c:\users\admin\documents\github\tank1990\eagle.cpp
+	"eagle.h"
+	<iostream>
+
+1680589161 c:\users\admin\documents\github\tank1990\eagle.h
+	"object.h"
+
+1680786289 source:c:\users\admin\documents\github\tank1990\enemy.cpp
+	"enemy.h"
+	"gameconfig.h"
+	<iostream>
+
+1680610572 c:\users\admin\documents\github\tank1990\enemy.h
+	"tank.h"
+
+1680787045 c:\users\admin\documents\github\tank1990\tank.h
+	"object.h"
+	"bullet.h"
+	<vector>
+
+1680450659 source:c:\users\admin\documents\github\tank1990\game.cpp
+	"game.h"
+	"gameconfig.h"
+	"renderer.h"
+	"main.h"
+	"playing.h"
+	<bits/stdc++.h>
+	<chrono>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+
+1680228709 c:\users\admin\documents\github\tank1990\game.h
+	"appstate.h"
+	<SDL.h>
+	"renderer.h"
+
+1679298024 c:\users\admin\documents\github\tank1990\appstate.h
+	<SDL.h>
+
+1679369303 c:\users\admin\documents\github\tank1990\main.h
+	"game.h"
+
+1680788137 c:\users\admin\documents\github\tank1990\playing.h
+	<SDL.h>
+	"appstate.h"
+	"player.h"
+	"object.h"
+	"eagle.h"
+	"enemy.h"
+	"bonus.h"
+	<string>
+
+1680595023 c:\users\admin\documents\github\tank1990\player.h
+	"tank.h"
+	<SDL.h>
+
+1680788913 source:c:\users\admin\documents\github\tank1990\gameconfig.cpp
+	"gameconfig.h"
+
+1680745607 source:c:\users\admin\documents\github\tank1990\main.cpp
+	<bits/stdc++.h>
+	"main.h"
+	"renderer.h"
+	<SDL.h>
+
+1679295427 source:c:\users\admin\documents\github\tank1990\menu.cpp
+	"menu.h"
+	"playing.h"
+
+1679295289 c:\users\admin\documents\github\tank1990\menu.h
+	"appstate.h"
+
+1680791592 source:c:\users\admin\documents\github\tank1990\object.cpp
+	"object.h"
+	"renderer.h"
+	<algorithm>
+	<SDL.h>
+
+1680787045 source:c:\users\admin\documents\github\tank1990\player.cpp
+	"player.h"
+	"renderer.h"
+	"main.h"
+	"gameconfig.h"
+	"bullet.h"
+	<algorithm>
+	<vector>
+	<iostream>
+
+1680791440 source:c:\users\admin\documents\github\tank1990\playing.cpp
+	"playing.h"
+	"menu.h"
+	"renderer.h"
+	"main.h"
+	"object.h"
+	"gameconfig.h"
+	"brick.h"
+	"game.h"
+	<chrono>
+	<SDL.h>
+	<fstream>
+	<iostream>
+	<string>
+	<SDL_image.h>
+	<algorithm>
+
+1680343885 source:c:\users\admin\documents\github\tank1990\renderer.cpp
+	"renderer.h"
+	"gameconfig.h"
+	"main.h"
+	<bits/stdc++.h>
+	<SDL_image.h>
+	<SDL.h>
+
+1680786266 source:c:\users\admin\documents\github\tank1990\tank.cpp
+	"tank.h"
+	"gameconfig.h"
+	"renderer.h"
+	<iostream>
+	<algorithm>
+
+1681485065 source:c:\users\admin\desktop\cplusplus\mainprj\tank1990\scores.cpp
+	"scores.h"
+	"menu.h"
+	"playing.h"
+	"gameconfig.h"
+	"renderer.h"
+	<iostream>
+
+1681444589 c:\users\admin\desktop\cplusplus\mainprj\tank1990\scores.h
+	"appstate.h"
+	"player.h"
+
+1711701631 source:c:\users\giakh\documents\wartank1990\wartank1990\bonus.cpp
+	"bonus.h"
+	"object.h"
+	"gameconfig.h"
+
+1711701631 c:\users\giakh\documents\wartank1990\wartank1990\bonus.h
+	"object.h"
+
+1711701632 c:\users\giakh\documents\wartank1990\wartank1990\object.h
+	"renderer.h"
+	"SDL.h"
+
+1712673478 c:\users\giakh\documents\wartank1990\wartank1990\renderer.h
+	<SDL.h>
+	<SDL_ttf.h>
+	<string>
+
+1711701631 c:\users\giakh\documents\wartank1990\wartank1990\gameconfig.h
+	<SDL.h>
+	<string>
+	<vector>
+
+1711701631 source:c:\users\giakh\documents\wartank1990\wartank1990\brick.cpp
+	"brick.h"
+	<iostream>
+
+1711701631 c:\users\giakh\documents\wartank1990\wartank1990\brick.h
+	"object.h"
+
+1711701631 source:c:\users\giakh\documents\wartank1990\wartank1990\bullet.cpp
+	"bullet.h"
+	"renderer.h"
+	<iostream>
+
+1711701631 c:\users\giakh\documents\wartank1990\wartank1990\bullet.h
+	"object.h"
+	<SDL.h>
+
+1711701631 source:c:\users\giakh\documents\wartank1990\wartank1990\eagle.cpp
+	"eagle.h"
+	<iostream>
+
+1711701631 c:\users\giakh\documents\wartank1990\wartank1990\eagle.h
+	"object.h"
+
+1711701631 source:c:\users\giakh\documents\wartank1990\wartank1990\enemy.cpp
+	"enemy.h"
+	"gameconfig.h"
+	<iostream>
+
+1711701631 c:\users\giakh\documents\wartank1990\wartank1990\enemy.h
+	"tank.h"
+
+1711701632 c:\users\giakh\documents\wartank1990\wartank1990\tank.h
+	"object.h"
+	"bullet.h"
+	<vector>
+
+1712642281 source:c:\users\giakh\documents\wartank1990\wartank1990\game.cpp
+	"game.h"
+	"gameconfig.h"
+	"renderer.h"
+	"main.h"
+	"playing.h"
+	"menu.h"
+	<bits/stdc++.h>
+	<chrono>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+
+1711701631 c:\users\giakh\documents\wartank1990\wartank1990\game.h
+	"appstate.h"
+	<SDL.h>
+	"renderer.h"
+
+1711701631 c:\users\giakh\documents\wartank1990\wartank1990\appstate.h
+	"renderer.h"
+	<SDL.h>
+
+1711701632 c:\users\giakh\documents\wartank1990\wartank1990\main.h
+	"game.h"
+
+1711701632 c:\users\giakh\documents\wartank1990\wartank1990\playing.h
+	<SDL.h>
+	"appstate.h"
+	"player.h"
+	"object.h"
+	"eagle.h"
+	"enemy.h"
+	"bonus.h"
+	"renderer.h"
+	<string>
+
+1711701632 c:\users\giakh\documents\wartank1990\wartank1990\player.h
+	"tank.h"
+	<SDL.h>
+
+1711701632 c:\users\giakh\documents\wartank1990\wartank1990\menu.h
+	<vector>
+	"player.h"
+	"appstate.h"
+
+1713967358 source:c:\users\giakh\documents\wartank1990\wartank1990\gameconfig.cpp
+	"gameconfig.h"
+
+1711701631 source:c:\users\giakh\documents\wartank1990\wartank1990\main.cpp
+	<bits/stdc++.h>
+	"main.h"
+	"renderer.h"
+	<SDL.h>
+
+1711701632 source:c:\users\giakh\documents\wartank1990\wartank1990\menu.cpp
+	"menu.h"
+	"playing.h"
+	"gameconfig.h"
+	<SDL.h>
+	<iostream>
+
+1711701632 source:c:\users\giakh\documents\wartank1990\wartank1990\object.cpp
+	"object.h"
+	"renderer.h"
+	<algorithm>
+	<SDL.h>
+
+1713967190 source:c:\users\giakh\documents\wartank1990\wartank1990\player.cpp
+	"player.h"
+	"renderer.h"
+	"main.h"
+	"gameconfig.h"
+	"bullet.h"
+	<algorithm>
+	<vector>
+	<iostream>
+
+1713965295 source:c:\users\giakh\documents\wartank1990\wartank1990\renderer.cpp
+	"renderer.h"
+	"gameconfig.h"
+	"main.h"
+	<bits/stdc++.h>
+	<SDL_image.h>
+	<SDL.h>
+
+1711701632 source:c:\users\giakh\documents\wartank1990\wartank1990\scores.cpp
+	"scores.h"
+	"menu.h"
+	"playing.h"
+	"gameconfig.h"
+	"renderer.h"
+	<iostream>
+
+1711701632 c:\users\giakh\documents\wartank1990\wartank1990\scores.h
+	"appstate.h"
+	"player.h"
+
+1712673633 source:c:\users\giakh\documents\wartank1990\wartank1990\tank.cpp
+	"tank.h"
+	"gameconfig.h"
+	"renderer.h"
+	<iostream>
+	<algorithm>
+
+1713339634 source:c:\users\giakh\documents\wartank1990\wartank1990\playing.cpp
+	"playing.h"
+	"menu.h"
+	"renderer.h"
+	"main.h"
+	"object.h"
+	"gameconfig.h"
+	"brick.h"
+	"game.h"
+	"scores.h"
+	<chrono>
+	<SDL.h>
+	<fstream>
+	<iostream>
+	<string>
+	<SDL_image.h>
+	<algorithm>
+
+1714382539 source:d:\wartank\bonus.cpp
+	"bonus.h"
+	"object.h"
+	"gameconfig.h"
+
+1714382538 d:\wartank\bonus.h
+	"object.h"
+
+1714382539 d:\wartank\object.h
+	"renderer.h"
+	"SDL.h"
+
+1714382538 d:\wartank\renderer.h
+	<SDL.h>
+	<SDL_ttf.h>
+	<string>
+
+1714382539 d:\wartank\gameconfig.h
+	<SDL.h>
+	<string>
+	<vector>
+
+1714382539 source:d:\wartank\brick.cpp
+	"brick.h"
+	<iostream>
+
+1714382539 d:\wartank\brick.h
+	"object.h"
+
+1714382539 source:d:\wartank\bullet.cpp
+	"bullet.h"
+	"renderer.h"
+	<iostream>
+
+1714382538 d:\wartank\bullet.h
+	"object.h"
+	<SDL.h>
+
+1714382539 source:d:\wartank\eagle.cpp
+	"eagle.h"
+	<iostream>
+
+1714382539 d:\wartank\eagle.h
+	"object.h"
+
+1714382539 source:d:\wartank\enemy.cpp
+	"enemy.h"
+	"gameconfig.h"
+	<iostream>
+
+1714382539 d:\wartank\enemy.h
+	"tank.h"
+
+1714382539 d:\wartank\tank.h
+	"object.h"
+	"bullet.h"
+	<vector>
+
+1714638180 source:d:\wartank\game.cpp
+	"game.h"
+	"gameconfig.h"
+	"renderer.h"
+	"main.h"
+	"playing.h"
+	"menu.h"
+	<bits/stdc++.h>
+	<chrono>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+
+1714382539 d:\wartank\game.h
+	"appstate.h"
+	<SDL.h>
+	"renderer.h"
+
+1714382538 d:\wartank\appstate.h
+	"renderer.h"
+	<SDL.h>
+
+1714382538 d:\wartank\main.h
+	"game.h"
+
+1714382538 d:\wartank\playing.h
+	<SDL.h>
+	"appstate.h"
+	"player.h"
+	"object.h"
+	"eagle.h"
+	"enemy.h"
+	"bonus.h"
+	"renderer.h"
+	<string>
+
+1714382538 d:\wartank\player.h
+	"tank.h"
+	<SDL.h>
+
+1714382539 d:\wartank\menu.h
+	<vector>
+	"player.h"
+	"appstate.h"
+
+1714382539 source:d:\wartank\main.cpp
+	<bits/stdc++.h>
+	"main.h"
+	"renderer.h"
+	<SDL.h>
+
+1714652428 source:d:\wartank\menu.cpp
+	"menu.h"
+	"playing.h"
+	"gameconfig.h"
+	<SDL.h>
+	<iostream>
+
+1714382539 source:d:\wartank\object.cpp
+	"object.h"
+	"renderer.h"
+	<algorithm>
+	<SDL.h>
+
+1714382538 source:d:\wartank\player.cpp
+	"player.h"
+	"renderer.h"
+	"main.h"
+	"gameconfig.h"
+	"bullet.h"
+	<algorithm>
+	<vector>
+	<iostream>
+
+1714738033 source:d:\wartank\playing.cpp
+	"playing.h"
+	"menu.h"
+	"renderer.h"
+	"main.h"
+	"object.h"
+	"gameconfig.h"
+	"brick.h"
+	"game.h"
+	"scores.h"
+	<chrono>
+	<SDL.h>
+	<fstream>
+	<iostream>
+	<string>
+	<SDL_image.h>
+	<algorithm>
+
+1714382538 d:\wartank\scores.h
+	"appstate.h"
+	"player.h"
+
+1714653149 source:d:\wartank\renderer.cpp
+	"renderer.h"
+	"gameconfig.h"
+	"main.h"
+	<bits/stdc++.h>
+	<SDL_image.h>
+	<SDL.h>
+
+1714464464 source:d:\wartank\scores.cpp
+	"scores.h"
+	"menu.h"
+	"playing.h"
+	"gameconfig.h"
+	"renderer.h"
+	<bits/stdc++.h>
+
+1714382538 source:d:\wartank\tank.cpp
+	"tank.h"
+	"gameconfig.h"
+	"renderer.h"
+	<iostream>
+	<algorithm>
+
+1714464779 source:d:\wartank\gameconfig.cpp
+	"gameconfig.h"
+
