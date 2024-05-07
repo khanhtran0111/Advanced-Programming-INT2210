@@ -91,7 +91,7 @@ Playing::~Playing() {
 void Playing::nextLevel() {
     currentLevel++;
     if(currentLevel > 11) currentLevel = 1;
-    if(currentLevel < 1) currentLevel = 10;
+    if(currentLevel < 1) currentLevel = 11;
 
     gameOver = false;
     playingFinished = false;
@@ -496,7 +496,6 @@ void Playing::checkCollisionBulletWithBush(Bullet *bullet) {
         intersect_rect = intersectRect(pr, an);
 
         if(intersect_rect.w > 0 && intersect_rect.h > 0) {
-            //bullet->destroy();
             bush->to_erase = true;
         }
     }
