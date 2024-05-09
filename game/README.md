@@ -6,23 +6,23 @@ Tank 1990 được viết bằng C++ sử dụng thư viện SDL 2.0
   
 # CÁCH CHƠI:
   ## PLAYER 1 (XE TĂNG MÀU ĐỎ + TRẮNG):
-  - ↑	 : di chuyển lên trên
-  - ← : di chuyển sang trái
-  - ↓	 : di chuyển xuống dưới
-  - → : di chuyển sang phải
-  - Right Control : bắn
+  - `↑`	 : di chuyển lên trên
+  - `←` : di chuyển sang trái
+  - `↓`	 : di chuyển xuống dưới
+  - `→` : di chuyển sang phải
+  - `Right Control` : bắn
   ## PLAYER 2 (XE TĂNG MÀU ĐỎ + VÀNG):
-  - W : di chuyển lên trên
-  - A : di chuyển sang trái
-  - S : di chuyển xuống dưới
-  - D : di chuyển sang phải
-  - F : bắn
+  - `W` : di chuyển lên trên
+  - `A` : di chuyển sang trái
+  - `S` : di chuyển xuống dưới
+  - `D` : di chuyển sang phải
+  - `F` : bắn
   ## CÁC PHÍM ĐIỀU KHIỂN KHÁC
-  - ESC: thoát
-  - ENTER: chọn
-  - N: chơi màn tiếp theo
-  - B: chơi màn trước đó
-  - P: tạm dừng trò chơi
+  - `ESC`: thoát
+  - `ENTER`: chọn
+  - `N`: chơi màn tiếp theo
+  - `B`: chơi màn trước đó
+  - `P`: tạm dừng trò chơi
   
 ---
 # LUẬT CHƠI:
@@ -45,7 +45,12 @@ Tank 1990 được viết bằng C++ sử dụng thư viện SDL 2.0
     + **@** ![stone wall](pack/stone.png) Tường đá: người chơi chỉ có thể bắn vỡ khi tích đủ 3 sao hoặc ăn được bonus Súng.
     + **%** ![bush](pack/bush.png) Bụi cỏ: người chơi có thể đi xuyên qua và có thể "cắt" khi tích đủ 3 sao hoặc ăn được bonus Súng.
 
-# CHI TIẾT VỀ GAME
+# GAME
+## Video Demo
+  -[Video](https://youtu.be/E4H3WhQxdic)
+
+## Chi tiết về Game
+
   -[File chi tiết](https://resilient-island-47e.notion.site/Wartank-1990-e767abbe331d4e80818b33674a109a27?pvs=4)
   
 ---
