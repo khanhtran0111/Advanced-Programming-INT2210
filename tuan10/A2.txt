@@ -1,0 +1,12 @@
+ int* p = new int;
+ int* p2 = p;
+ *p = 10;
+ delete p; 
+*p2 = 100;
+ cout << *p2; // lỗi
+ delete p2;  //lỗi
+
+ khi gán int* p2 = p, thì p2 trỏ tới vùng nhớ mà p trỏ tới.
+ Sau khi giải phóng bộ nhớ p bằng delete p
+ -> vùng nhớ mà p và p2 đều trỏ tới cũng được giải phóng.
+  vậy có thể dẫn đến crash chương trình hoặc lỗi liên quan đến bộ nhớ.

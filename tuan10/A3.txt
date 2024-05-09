@@ -1,0 +1,14 @@
+char* a = new char[10];
+char* c = a + 3;
+for (int i = 0; i < 9; i++) a[i] = 'a'; 
+a[9] = '\0';
+cerr <<"a: " << "-" << a << "-" << endl;
+cerr <<"c: " << "-" << c << "-" << endl;
+delete c; // lỗi
+cerr << "a after deleting c:" << "-" << a << "-" << endl;
+
+
+Lệnh delete c là lệnh để giải phóng bộ nhớ của c.
+Tuy nhiên, con trỏ c chỉ là một phần của một phần của mảng được cấp phát từ a , không phải con trỏ được cấp phát từ new.
+-> sử dụng delete c là sai.
+-> cerr << "a after deleting c:" << "-" << a << "-" << endl; sai 
