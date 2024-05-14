@@ -47,7 +47,7 @@ Tank 1990 được viết bằng C++ sử dụng thư viện SDL 2.0
 
 # GAME
 ## Video Demo
-  -[Video](https://youtu.be/E4H3WhQxdic)
+  -[Video](https://youtu.be/OV75Co-5wtg)
 
 ## Chi tiết về Game
 
