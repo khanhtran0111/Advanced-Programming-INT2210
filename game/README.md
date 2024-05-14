@@ -51,6 +51,13 @@ Tank 1990 được viết bằng C++ sử dụng thư viện SDL 2.0
 
 ## Chi tiết về Game
 
+### Thuật toán sử dụng
+  - 4 xe tăng địch được setting với 3 cấu hình khác nhau(tốc độ, số lượng đạn bắn ra).
+  - Cả 4 sẽ cùng hướng về con đại bàng của người chơi với `rand()` direction.
+  - Các bonus và các loại xe tăng được hồi sinh cũng là random.
+  
+  -[Link Background Music](https://www.youtube.com/watch?v=hOh67NZM7BM)
+
   -[File chi tiết](https://resilient-island-47e.notion.site/Wartank-1990-e767abbe331d4e80818b33674a109a27?pvs=4)
   
 ---
