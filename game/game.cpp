@@ -11,20 +11,25 @@
 #include <SDL_image.h>
 #include <SDL_ttf.h>
 
+#include<SDL_mixer.h>
+
 Game::Game() {
     gameWindow = nullptr;
+    backgroundMusic = nullptr;
 }
 
 Game::~Game() {
     if(appState != nullptr) delete appState;
     if(renderer != nullptr) delete renderer;
+    if(backgroundMusic != nullptr) Mix_FreeMusic(backgroundMusic);
 }
 
 void Game::run() {
     is_running = true;
-    if(SDL_Init(SDL_INIT_VIDEO) == 0) {
+    if(SDL_Init(SDL_INIT_VIDEO | SDL_INIT_AUDIO) == 0) {
         IMG_Init(IMG_INIT_PNG);
         TTF_Init();
+        Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, 2, 2048);//create sdl mixer
         gameWindow = SDL_CreateWindow("Tanks", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED,
                                        GameConfig::window_rect.w, GameConfig::window_rect.h, SDL_WINDOW_SHOWN);
 
@@ -33,6 +38,9 @@ void Game::run() {
         renderer->loadTexture(gameWindow);
         renderer->loadFont();
         appState = new Menu;
+        //load music
+        backgroundMusic = Mix_LoadMUS("f1theme8bit.mp3");
+        Mix_PlayMusic(backgroundMusic, -1);
 
         double FPS;
         int time1, time2, dt, fps_time = 0, fps_count = 0, delay = 15;
@@ -65,7 +73,8 @@ void Game::run() {
             }
         }
     }
-
+    Mix_FreeMusic(backgroundMusic);
+    Mix_CloseAudio();
     SDL_DestroyWindow(gameWindow);
     gameWindow = nullptr;
     IMG_Quit();

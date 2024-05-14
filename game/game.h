@@ -4,6 +4,7 @@
 #include "appstate.h"
 #include<SDL.h>
 #include "renderer.h"
+#include<SDL_mixer.h>
 
 class Game {
 public:
@@ -15,6 +16,7 @@ public:
     void eventProcess();
     AppState* appState;
     Renderer* renderer;
+    Mix_Music* backgroundMusic;
 };
 
 #endif
