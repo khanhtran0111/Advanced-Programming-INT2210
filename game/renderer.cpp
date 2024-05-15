@@ -18,7 +18,7 @@ Renderer::~Renderer() {
 void Renderer::loadTexture(SDL_Window* window) {
     gameRenderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
     gameTexture = IMG_LoadTexture(gameRenderer, GameConfig::texture_path.c_str());
-    backgroundTexture = IMG_LoadTexture(gameRenderer, "");
+    backgroundTexture = IMG_LoadTexture(gameRenderer, "resources/background.png");
 }
 
 void Renderer::loadFont() {
